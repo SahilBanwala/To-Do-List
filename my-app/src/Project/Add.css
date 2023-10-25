@@ -1,0 +1,48 @@
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(211, 211, 241) !important;
+    width: fit-content;
+   
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    gap: 20px;
+}
+
+.same{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+     margin: 1rem;
+}
+button{
+    background-color: blue ;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.input{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 200px;
+    height: 25px;
+}
+button:hover{
+    color: red;
+    background-color: black;
+}
